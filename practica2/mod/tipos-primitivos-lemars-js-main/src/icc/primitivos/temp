@@ -1,0 +1,56 @@
+public class Prueba {
+
+    public static void main(String[] args) {
+
+	int max = Integer.MAX_VALUE;
+	++max;
+	
+	System.out.println("Decimal  " + max);
+        System.out.println("Binario " + Integer.toBinaryString(max));
+	
+
+ /**
+     * parte dos de la practica
+     * numeros reales
+     */
+
+  	/**
+	*NaN,quequieredecir“Not a number”. 
+	*Se utiliza para representar un resultadonumérico inválido, como el obtenido al dividir 0/0.
+        */
+
+	double nan = Double.NaN;
+
+		System.out.println(nan);
+
+	/**
+	* mas o menos infinito 
+        */
+
+	double minf = Double.NEGATIVE_INFINITY;
+
+	double pinf = Double.POSITIVE_INFINITY;
+
+		System.out.println(minf);
+		System.out.println(pinf);
+
+	/**
+	* como se utiliza la representación signo-maginitud, hay dos ceros
+        */
+
+	double cero = 0.0;
+	double mcero = -0.0;
+
+		System.out.println(cero);
+		System.out.println(mcero);
+
+	/**
+	* Afortunadamente Java dice que ambos son iguales. 
+	*Aunque el bit de signo enla computadora es diferente.
+        */
+
+
+
+    }
+ 
+}
